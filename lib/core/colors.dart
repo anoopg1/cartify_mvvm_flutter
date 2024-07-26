@@ -11,4 +11,5 @@ const Color koffwhite = Color(0xFF1C3C3A);
 const Color kffGrey = Color(0xFFECEAEA);
 const Color koffDarkGrey = Color(0xFF636262);
 const Color kdarkGrey200 = Color(0xFFDEDCDC);
+const Color kTrasnparent = Colors.transparent;
 

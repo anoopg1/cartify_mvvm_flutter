@@ -1,3 +1,4 @@
+import 'package:cartify_stacked_flutter/app/app.router.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked_services/stacked_services.dart';
 
@@ -16,8 +17,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: 'sen',
       ),
-      // initialRoute: Routes.startupView,
-      // onGenerateRoute: StackedRouter().onGenerateRoute,
+      initialRoute: Routes.splashPageView,
+      onGenerateRoute: StackedRouter().onGenerateRoute,
       navigatorKey: StackedService.navigatorKey,
       navigatorObservers: [
         StackedService.routeObserver,
