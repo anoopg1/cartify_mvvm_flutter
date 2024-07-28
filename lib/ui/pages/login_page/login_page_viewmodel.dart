@@ -14,7 +14,7 @@ class LoginPageViewmodel extends BaseViewModel {
     navigationService.navigateTo(Routes.landingPageView);
   }
 
- // Function to navigate ti signup page
+  // Function to navigate ti signup page
   void navigateToSignupPage() {
     navigationService.navigateTo(Routes.signupPageView);
   }
@@ -22,6 +22,8 @@ class LoginPageViewmodel extends BaseViewModel {
   // Function to reset password
   void forgetPassword() {}
 
-  
+// Function to validate the user data.
+  void formValidation(){
 
+  }
 }
